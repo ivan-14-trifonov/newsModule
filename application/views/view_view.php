@@ -1,11 +1,9 @@
 <header>
-    <h1><?=$data['title']?></h1>
-    <div class="hr"></div>
+    <h1><span class="text-muted"><?= gmdate("d.m.Y", $data['idate'])?></span> <?=$data['title']?></h1>
 </header>
 
 <main>
     <?=$data['content']?>
-    <div class="hr"></div>
 </main>
 
 <footer>
